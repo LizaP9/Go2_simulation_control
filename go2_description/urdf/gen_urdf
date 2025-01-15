@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+rosrun xacro xacro go2.urdf.xacro > go2.urdf
+
